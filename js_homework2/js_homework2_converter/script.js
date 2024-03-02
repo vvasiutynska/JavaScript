@@ -1,4 +1,5 @@
-var value = 10;
+var value = 1;
+var unit = "km";
 var result;
 
 switch (unit) {
@@ -15,5 +16,5 @@ switch (unit) {
         console.log(value + " kg is " + result + " g");
         break;
     default:
-        console.log("Unsupported unit.");
+        console.log("Непідтримувана одиниця виміру.");
 }
